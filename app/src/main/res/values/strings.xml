@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RoomSampleKolokvij</string>
+    <string name="error">An error has occurred</string>
+    <string name="city_name">City Name</string>
+    <string name="save">save</string>
+    <string name="delete_all">delete all</string>
+    <string name="search">Search</string>
+    <string name="city">City</string>
+    <string name="min_temperature">Min. Temperature</string>
+    <string name="max_temperature">Max. Temperature</string>
+    <string name="state">State</string>
+    <string name="weather">Weather</string>
+    <string name="avg_temperature">Avg. Temperature</string>
+    <string name="search_history">Search history</string>
+</resources>
