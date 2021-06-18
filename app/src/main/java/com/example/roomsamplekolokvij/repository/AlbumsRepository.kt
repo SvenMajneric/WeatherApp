@@ -1,10 +1,10 @@
 package com.example.roomsamplekolokvij.repository
 
 import androidx.lifecycle.LiveData
+import com.example.roomsamplekolokvij.BuildConfig.API_KEY
 import com.example.roomsamplekolokvij.db.AppDatabase
 import com.example.roomsamplekolokvij.model.WeatherBaseInfo
 import com.example.roomsamplekolokvij.networking.WeatherService
-import com.example.roomsamplekolokvij.util.Constants.Companion.API_KEY
 import javax.inject.Inject
 
 class AlbumsRepository @Inject constructor(
@@ -26,7 +26,6 @@ class AlbumsRepository @Inject constructor(
     suspend fun deleteAll(){
         albumsDao.deleteAll()
     }
-    //TODO: need to make an entity for database and UI for searching history
     suspend fun fetchWeather(name: String) = api.getCityWeather(name, API_KEY)
 
 
